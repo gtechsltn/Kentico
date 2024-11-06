@@ -1,46 +1,40 @@
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "KenticoCMS", "..\KenticoCMS", "{420F4FED-2F28-4BE5-8CEA-9A6B9A57558B}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34407.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Kentico", ".", "{CF0E7D21-BA45-4085-BE10-D4D29FF59CAA}"
 	ProjectSection(WebsiteProperties) = preProject
-		TargetFramework = "3.5"
-		Debug.AspNetCompiler.VirtualPath = "/KenticoCMS"
-		Debug.AspNetCompiler.PhysicalPath = "..\Project\KenticoCMS\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\KenticoCMS\"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_12257"
+		Debug.AspNetCompiler.PhysicalPath = "..\Kentico\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_12257\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/KenticoCMS"
-		Release.AspNetCompiler.PhysicalPath = "..\Project\KenticoCMS\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\KenticoCMS\"
+		Release.AspNetCompiler.VirtualPath = "/localhost_12257"
+		Release.AspNetCompiler.PhysicalPath = "..\Kentico\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_12257\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "1469"
+		VWDPort = "12257"
+		SlnRelativePath = "..\Kentico\"
 	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|.NET = Debug|.NET
 		Debug|Any CPU = Debug|Any CPU
-		Debug|Mixed Platforms = Debug|Mixed Platforms
-		Release|.NET = Release|.NET
-		Release|Any CPU = Release|Any CPU
-		Release|Mixed Platforms = Release|Mixed Platforms
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{420F4FED-2F28-4BE5-8CEA-9A6B9A57558B}.Debug|.NET.ActiveCfg = Debug|.NET
-		{420F4FED-2F28-4BE5-8CEA-9A6B9A57558B}.Debug|.NET.Build.0 = Debug|.NET
-		{420F4FED-2F28-4BE5-8CEA-9A6B9A57558B}.Debug|Any CPU.ActiveCfg = Debug|.NET
-		{420F4FED-2F28-4BE5-8CEA-9A6B9A57558B}.Debug|Mixed Platforms.ActiveCfg = Debug|.NET
-		{420F4FED-2F28-4BE5-8CEA-9A6B9A57558B}.Release|.NET.ActiveCfg = Debug|.NET
-		{420F4FED-2F28-4BE5-8CEA-9A6B9A57558B}.Release|.NET.Build.0 = Debug|.NET
-		{420F4FED-2F28-4BE5-8CEA-9A6B9A57558B}.Release|Any CPU.ActiveCfg = Debug|.NET
-		{420F4FED-2F28-4BE5-8CEA-9A6B9A57558B}.Release|Mixed Platforms.ActiveCfg = Debug|.NET
-		{420F4FED-2F28-4BE5-8CEA-9A6B9A57558B}.Release|Mixed Platforms.Build.0 = Debug|.NET
+		{CF0E7D21-BA45-4085-BE10-D4D29FF59CAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF0E7D21-BA45-4085-BE10-D4D29FF59CAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2942F925-DCA7-4ECF-8898-36A9F05069A4}
 	EndGlobalSection
 EndGlobal
